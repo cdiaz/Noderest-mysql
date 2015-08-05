@@ -1,9 +1,9 @@
 module.exports = {
 		
 	db	: {
-		host 		: process.env.DB_HOST || '127.0.0.1',
-	    user 		: process.env.DB_USERNAME || 'root',
-	    password 	: process.env.DB_PASSWORD || 'root',
-	    database	: process.env.DB_NAME || 'apirest'
+		    host: 'us-cdbr-iron-east-02.cleardb.net',
+		    user: 'b3e1fe953c2606',
+		    password: '664ce24e',
+		    database: 'heroku_bce5a5f738d4c6a'
 	}
 }	
