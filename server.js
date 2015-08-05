@@ -18,6 +18,6 @@ var server      = express(); //Levanta Servidor HTTP
 
 /* Correr servidor*/
 
-server.listen(process.env.PORT, function() {
+server.listen(process.env.PORT || 5000, function() {
   console.log('Node app is running on port');
 });
