@@ -17,6 +17,7 @@ var server      = express(); //Levanta Servidor HTTP
           .use('/', require('./routes')) //Carga los archivos de la carpeta route
 
 /* Correr servidor*/
-server.listen(process.env.PORT || 3000, process.env.IP || "127.0.0.1", function(){
-    console.log("Api Iniciada");
+
+server.listen(process.env.PORT, function() {
+  console.log('Node app is running on port', app.get('port'));
 });
