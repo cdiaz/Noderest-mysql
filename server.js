@@ -19,5 +19,5 @@ var server      = express(); //Levanta Servidor HTTP
 /* Correr servidor*/
 
 server.listen(process.env.PORT, function() {
-  console.log('Node app is running on port', app.get('port'));
+  console.log('Node app is running on port');
 });
