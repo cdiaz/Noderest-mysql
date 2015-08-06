@@ -40,7 +40,7 @@ exports.saveUser = function(req,res,next){
 
     req.getConnection(function(err,conn){
        
-       var query = connection.query(
+       var query = conn.query(
         "INSERT INTO usuario set ?",Usuario,function(err,rows){
               if(err){
                 console.log(err);
@@ -63,7 +63,7 @@ exports.updateUser = function(req,res,next){
 
     req.getConnection(function(err,conn){
            
-           var query = connection.query(
+           var query = conn.query(
             "UPDATE usuario set ? where id = ?",[Usuario,userId],function(err,rows){
                   if(err){
                     console.log(err);

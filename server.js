@@ -19,5 +19,5 @@ var server      = express(); //Levanta Servidor HTTP
 /* Correr servidor*/
 
 server.listen(process.env.PORT || 5000, function() {
-  console.log('API is running on port');
+  console.log('API is running');
 });
