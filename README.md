@@ -7,7 +7,8 @@ Instalación:
 - git clone https://github.com/cristiamdiaz/Noderest-mysql.git
 - cd Noderest-mysql
 - npm install
-- edit your database connection in config.js 
+- edit your config.js database connection 
 - import noderest.sql into your database
 - npm start
-- Open http://localhost:5000
+- Fire your browser http://localhost:5000/usuarios
+
