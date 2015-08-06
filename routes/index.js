@@ -1,6 +1,5 @@
 var fs = require('fs');  //Modulo File System para manipulación de ficheros
 
-
 /* Cargador dinámico de Modelos */
 var route = {}
     routes_path = process.cwd() + '/routes'
@@ -16,6 +15,10 @@ router.get('/',function(req,res){
      res.send('Hello World!');
 });
 
-router.get('/usuarios', route.usuario.listAllUsers);
+router.get('/usuarios', route.usuario.getUsers);
+router.post('/usuarios', route.usuario.saveUser);
+router.get('/usuario/:id', route.usuario.getUser);
+router.put('/usuario/:id', route.usuario.updateUser);
+router.delete('/usuario/:id', route.usuario.deleteUser);
 
 module.exports = router; 
