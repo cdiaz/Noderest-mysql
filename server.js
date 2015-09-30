@@ -15,6 +15,8 @@ var server      = express(); //Levanta Servidor HTTP
           .use(bodyParser.json())  //Expone mediante req.body un objeto JSON recibido en el Request
           .use(cors()) //Habilita CORS para todas las peticiones
           .use('/', require('./routes')) //Carga los archivos de la carpeta route
+          .use('/', express.static('public'));
+
 
 /* Correr servidor*/
 
