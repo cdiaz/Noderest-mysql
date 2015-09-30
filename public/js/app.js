@@ -1,6 +1,6 @@
 var app = angular.module('Noderest', ['ui.bootstrap','angularModalService', 'cgBusy']);
 
-var api_url = "http://localhost:5000/";
+var api_url = "http://apirest-mysql.herokuapp.com/";
 
 app.controller('MainCtrl', function($scope, $filter, ModalService, UsuariosService) {
   		
