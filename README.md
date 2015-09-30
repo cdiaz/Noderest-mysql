@@ -20,6 +20,6 @@ Routes:
 |:------------------:|:---------:|:------------------------:|
 | /usuarios          | GET       | get All users            |
 | /usuarios          | POST      | add new user             |
-| /usuarios/:user_id | GET       | get a user               |
-| /usuarios/:user_id | PUT       | update a user            |
-| /usuarios/:user_id | DELETE    | delete a user            |
+| /usuarios/:userId  | GET       | get a user               |
+| /usuarios/:userId  | PUT       | update a user            |
+| /usuarios/:userId  | DELETE    | delete a user            |
