@@ -81,7 +81,7 @@ exports.deleteUser = function(req,res,next){
 
     req.getConnection(function(err,conn){
         if (err) return next("Error de conexión");
-        var query = conn.query('DELETE FROM usuario WHERE id = ?',userId,function(err,rows){
+        var query = conn.query('DELETE FROM usuario WHERE id = ?',[userId],function(err,rows){
             if(err){
                 console.log(err);
                 return next("Mysql Error");
