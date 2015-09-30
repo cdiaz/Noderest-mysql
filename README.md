@@ -10,7 +10,7 @@ Instalación:
 - edit your config.js database connection 
 - import noderest.sql into your database
 - npm start
-- Fire your browser http://localhost:5000/usuarios
+- Fire your browser http://localhost:5000/index.html
 
 
 Routes:
