@@ -4,7 +4,7 @@ Ejemplo Basico de una API Restful con Nodejs, Express y Mysql
 
 Instalación:
 
-- git clone https://github.com/cristiamdiaz/Noderest-mysql.git
+- git clone https://github.com/cdiaz/Noderest-mysql.git
 - cd Noderest-mysql
 - npm install
 - edit your config.js database connection 
